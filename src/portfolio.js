@@ -157,7 +157,7 @@ const educationInfo = {
       subHeader: "6th Class - 10 Class",
       duration: "2015-2019",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     },
     {
       schoolName: "Rajiv Gandhi University of Knowledge Technologies",
