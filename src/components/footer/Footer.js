@@ -19,7 +19,7 @@ export default function Footer() {
             target="_blank"
             rel="noreferrer"
           >
-            Usman Shaik 
+            Usman Shaik
           </a>
         </p>
       </div>

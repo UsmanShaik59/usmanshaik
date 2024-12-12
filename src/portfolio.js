@@ -26,10 +26,8 @@ const greeting = {
   ),
   resumeLink:
     "https://drive.google.com/file/d/1u97Bn86Iqh9V7WRxcuVUA_jY4-u0o_LM/view?usp=sharing", // Set to empty to hide the button
-  displayGreeting: true, // Set false to hide this section, defaults to true
-
+  displayGreeting: true // Set false to hide this section, defaults to true
 };
-
 
 // Social Media Links
 
@@ -58,7 +56,7 @@ const talkSection = {
       subtitle: "",
       slides_url: "",
       event_url: "",
-      image: require("./assets/images/me.jpg") 
+      image: require("./assets/images/me.jpg")
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -73,7 +71,9 @@ const skillsSection = {
     emoji(
       "⚡Develop responsive and interactive user interfaces using HTML, CSS, JavaScript, React.js, and Bootstrap."
     ),
-    emoji("⚡ Create web applications with a focus on AI integration and seamless user experiences.Design and implement frameworks for static analysis of Android application vulnerabilities."),
+    emoji(
+      "⚡ Create web applications with a focus on AI integration and seamless user experiences.Design and implement frameworks for static analysis of Android application vulnerabilities."
+    ),
     emoji(
       "⚡Analyze and process large-scale datasets using Big Data tools like Hadoop, Hive, Spark, and Kafka."
     )
@@ -83,68 +83,68 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-  {
-    skillName: "html-5",
-    fontAwesomeClassname: "fab fa-html5",
-  },
-  {
-    skillName: "css3",
-    fontAwesomeClassname: "fab fa-css3-alt",
-  },
-  {
-    skillName: "bootstrap",
-    fontAwesomeClassname: "fab fa-bootstrap",
-  },
-  {
-    skillName: "JavaScript",
-    fontAwesomeClassname: "fab fa-js",
-  },
-  {
-    skillName: "reactjs",
-    fontAwesomeClassname: "fab fa-react",
-  },
-  {
-    skillName: "nodejs",
-    fontAwesomeClassname: "fab fa-node",
-  },
-  {
-    skillName: "nestjs",
-    fontAwesomeClassname: "fas fa-leaf",
-  },
-  {
-    skillName: "typeorm",
-    fontAwesomeClassname: "fas fa-server",
-  },
-  {
-    skillName: "mui",
-    fontAwesomeClassname: "fas fa-layer-group",
-  },
-  {
-    skillName: "sql-database",
-    fontAwesomeClassname: "fas fa-database",
-  },
-  {
-    skillName: "Java",
-    fontAwesomeClassname: "fab fa-java",
-  },
-  {
-    skillName: "bigdata",
-    fontAwesomeClassname: "fas fa-database",
-  },
-  {
-    skillName: "iot",
-    fontAwesomeClassname: "fas fa-network-wired",
-  },
-  {
-    skillName: "python",
-    fontAwesomeClassname: "fab fa-python",
-  },
-  {
-    skillName: "ai",
-    fontAwesomeClassname: "fas fa-brain",
-  },
-],
-display: true, // Set false to hide this section, defaults to true
+    {
+      skillName: "html-5",
+      fontAwesomeClassname: "fab fa-html5"
+    },
+    {
+      skillName: "css3",
+      fontAwesomeClassname: "fab fa-css3-alt"
+    },
+    {
+      skillName: "bootstrap",
+      fontAwesomeClassname: "fab fa-bootstrap"
+    },
+    {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "reactjs",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "nodejs",
+      fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "nestjs",
+      fontAwesomeClassname: "fas fa-leaf"
+    },
+    {
+      skillName: "typeorm",
+      fontAwesomeClassname: "fas fa-server"
+    },
+    {
+      skillName: "mui",
+      fontAwesomeClassname: "fas fa-layer-group"
+    },
+    {
+      skillName: "sql-database",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "bigdata",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "iot",
+      fontAwesomeClassname: "fas fa-network-wired"
+    },
+    {
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "ai",
+      fontAwesomeClassname: "fas fa-brain"
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
 };
 // Education Section
 
@@ -156,7 +156,7 @@ const educationInfo = {
       logo: require("./assets/images/gv.png"),
       subHeader: "6th Class - 10 Class",
       duration: "2015-2019",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ..."
       // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     },
     {
@@ -179,7 +179,7 @@ const educationInfo = {
         " IoT systems and industrial applications with design thinking (Feb 2024- May 2024)",
         " Workshop on Automated Fire Extinguishing Robot Design (May 2024- June 2024)"
       ]
-    },
+    }
   ]
 };
 
@@ -215,9 +215,7 @@ const workExperiences = {
       companylogo: require("./assets/images/logo.png"),
       date: " Sep 2024- Mar 2025",
       desc: "Worked on front-end, back-end, and web widgets for personalized notifications.",
-      descBullets: [
-        "Enhanced communication strategies for user engagement."
-      ]
+      descBullets: ["Enhanced communication strategies for user engagement."]
     },
     {
       role: "Graphic Designer Intern",
@@ -245,9 +243,7 @@ const workExperiences = {
       companylogo: require("./assets/images/sc.png"),
       date: " January 2024- July 2024",
       desc: " Completed 500+ hours in Node.js, leading responsive web projects.",
-      descBullets: [
-        " Directed a key project improving efficiency by 80%."
-      ]
+      descBullets: [" Directed a key project improving efficiency by 80%."]
     }
   ]
 };
@@ -269,7 +265,7 @@ const bigProjects = {
     {
       // image: require("./assets/images/saayaHealthLogo.webp"),
       // projectName: "Saayahealth",
-      projectDesc: "Multi-Portal Website with AI integration with Voice Over",
+      projectDesc: "Multi-Portal Website with AI integration with Voice Over"
       // footerLink: [
       //   {
       //     // name: "Visit Website",
@@ -281,7 +277,8 @@ const bigProjects = {
     {
       // image: require("./assets/images/saayaHealthLogo.webp"),
       // projectName: "Saayahealth",
-      projectDesc: "Responsive Web Projects like ChatBot AI, JobFinder, Shopping Website, Healthcare Website",
+      projectDesc:
+        "Responsive Web Projects like ChatBot AI, JobFinder, Shopping Website, Healthcare Website"
       // footerLink: [
       //   {
       //     // name: "Visit Website",
@@ -293,7 +290,8 @@ const bigProjects = {
     {
       // image: require("./assets/images/saayaHealthLogo.webp"),
       // projectName: "Saayahealth",
-      projectDesc: " Framework for Static Analysis of vulnerabilities in Android Applications , Chatting Application using Java Swing",
+      projectDesc:
+        " Framework for Static Analysis of vulnerabilities in Android Applications , Chatting Application using Java Swing"
       // footerLink: [
       //   {
       //     name: "Visit Website",
@@ -305,7 +303,8 @@ const bigProjects = {
     {
       // image: require("./assets/images/saayaHealthLogo.webp"),
       // projectName: "Saayahealth",
-      projectDesc: "  Rule Engine with AST , Real-Time Data Processing System for Weather Monitoring with Rollups and Aggregates , Rule Based Access Control",
+      projectDesc:
+        "  Rule Engine with AST , Real-Time Data Processing System for Weather Monitoring with Rollups and Aggregates , Rule Based Access Control"
       // footerLink: [
       //   {
       //     name: "Visit Website",
@@ -313,7 +312,7 @@ const bigProjects = {
       //   }
       //   //  you can add extra buttons here.
       // ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -329,8 +328,7 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "Codsoft",
-      subtitle:
-        "Artificial Intelligence",
+      subtitle: "Artificial Intelligence",
       image: require("./assets/images/a.png"),
       // imageAlt: "Google Code-In Logo",
       footerLink: [
@@ -369,11 +367,10 @@ const achievementSection = {
         // }
       ]
     },
-   
+
     {
       title: "EDX",
-      subtitle:
-        " MatlabeOctaveBeginnersX MATLAB and Octave for Beginners",
+      subtitle: " MatlabeOctaveBeginnersX MATLAB and Octave for Beginners",
       image: require("./assets/images/d.png"),
       // imageAlt: "Google Code-In Logo",
       footerLink: [
@@ -393,8 +390,7 @@ const achievementSection = {
     },
     {
       title: "Great Learning",
-      subtitle:
-        "Introduction to Matlab",
+      subtitle: "Introduction to Matlab",
       image: require("./assets/images/e.png"),
       // imageAlt: "Google Code-In Logo",
       footerLink: [
@@ -414,8 +410,7 @@ const achievementSection = {
     },
     {
       title: "Great Learning",
-      subtitle:
-        "Java Programming",
+      subtitle: "Java Programming",
       image: require("./assets/images/f.png"),
       // imageAlt: "Google Code-In Logo",
       footerLink: [
@@ -435,8 +430,7 @@ const achievementSection = {
     },
     {
       title: "Great Learning",
-      subtitle:
-        "Microsoft Azure Essentials",
+      subtitle: "Microsoft Azure Essentials",
       image: require("./assets/images/g.png"),
       // imageAlt: "Google Code-In Logo",
       footerLink: [
@@ -456,8 +450,7 @@ const achievementSection = {
     },
     {
       title: "MathWorks",
-      subtitle:
-        "Matlab ONRAMP",
+      subtitle: "Matlab ONRAMP",
       image: require("./assets/images/h.png"),
       // imageAlt: "Google Code-In Logo",
       footerLink: [
@@ -477,8 +470,7 @@ const achievementSection = {
     },
     {
       title: "Study Comrade",
-      subtitle:
-        "Web Development Internship",
+      subtitle: "Web Development Internship",
       image: require("./assets/images/i.png"),
       // imageAlt: "Google Code-In Logo",
       footerLink: [
@@ -498,8 +490,7 @@ const achievementSection = {
     },
     {
       title: "Study Comrade",
-      subtitle:
-        "Frontend Workshop",
+      subtitle: "Frontend Workshop",
       image: require("./assets/images/j.png"),
       // imageAlt: "Google Code-In Logo",
       footerLink: [
@@ -519,8 +510,7 @@ const achievementSection = {
     },
     {
       title: "Karthikeya Solutions",
-      subtitle:
-        "VLSI",
+      subtitle: "VLSI",
       image: require("./assets/images/k.png"),
       // imageAlt: "Google Code-In Logo",
       footerLink: [
@@ -540,8 +530,7 @@ const achievementSection = {
     },
     {
       title: "UNSTOP",
-      subtitle:
-        "TATA CRUCIABLE CAMPUS QUIZ",
+      subtitle: "TATA CRUCIABLE CAMPUS QUIZ",
       image: require("./assets/images/l.png"),
       // imageAlt: "Google Code-In Logo",
       footerLink: [
@@ -561,8 +550,7 @@ const achievementSection = {
     },
     {
       title: "NAUKRI CAMPUS",
-      subtitle:
-        "Young Turks",
+      subtitle: "Young Turks",
       image: require("./assets/images/m.png"),
       // imageAlt: "Google Code-In Logo",
       footerLink: [
@@ -582,8 +570,7 @@ const achievementSection = {
     },
     {
       title: "IBM SKILLS Build",
-      subtitle:
-        "Artificial Intelligence Fundamentals",
+      subtitle: "Artificial Intelligence Fundamentals",
       image: require("./assets/images/n.jpg"),
       // imageAlt: "Google Code-In Logo",
       footerLink: [
@@ -603,8 +590,7 @@ const achievementSection = {
     },
     {
       title: "RAJIV GANDHI UNIVERSITY OF KNOWLEDGE TECHNOLOGIES",
-      subtitle:
-        "IOT FUSION WORKSHOP",
+      subtitle: "IOT FUSION WORKSHOP",
       image: require("./assets/images/o.jpg"),
       // imageAlt: "Google Code-In Logo",
       footerLink: [
@@ -624,8 +610,7 @@ const achievementSection = {
     },
     {
       title: "RAJIV GANDHI UNIVERSITY OF KNOWLEDGE TECHNOLOGIES",
-      subtitle:
-        "SMART INDIA HACKATHON 2024",
+      subtitle: "SMART INDIA HACKATHON 2024",
       image: require("./assets/images/p.jpg"),
       // imageAlt: "Google Code-In Logo",
       footerLink: [
@@ -648,7 +633,6 @@ const achievementSection = {
 };
 
 // Blogs Section
-
 
 const blogSection = {
   title: "Blogs",
@@ -674,11 +658,7 @@ function BlogImage() {
 
 export default BlogImage;
 
-
-
-
 // Talks Sections
-
 
 // Podcast Section
 
@@ -714,7 +694,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: false// Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
@@ -733,7 +713,6 @@ export {
   bigProjects,
   achievementSection,
   blogSection,
- 
   podcastSection,
   contactInfo,
   twitterDetails,
