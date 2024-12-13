@@ -156,8 +156,8 @@ const educationInfo = {
       logo: require("./assets/images/gv.png"),
       subHeader: "6th Class - 10 Class",
       duration: "2015-2019",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ..."
-      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "Completed 10th-grade education with a perfect score of 10 points"
+      // descBullets: ["Lorem ipsum dolor sit am et, consectetur adipiscing elit"]
     },
     {
       schoolName: "Rajiv Gandhi University of Knowledge Technologies",
@@ -166,7 +166,7 @@ const educationInfo = {
       duration: "September 2019 - April 2021",
       // desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
-        " Completed Intermediate education at IIIT RGUKT RK Valley, Kadapa."
+        " Completed Intermediate education with 84% at IIIT RGUKT RK Valley, Kadapa."
       ]
     },
     {
@@ -194,14 +194,14 @@ const techStack = {
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "90%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "95%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -213,8 +213,8 @@ const workExperiences = {
       role: "Full Stack Developer Intern",
       company: "Notify Suite Technology Pvt Ltd",
       companylogo: require("./assets/images/logo.png"),
-      date: " Sep 2024- Mar 2025",
-      desc: "Worked on front-end, back-end, and web widgets for personalized notifications.",
+      date: " Sep 2024- Present",
+      desc: "Currently working on front-end, back-end, and web widgets for personalized notifications.",
       descBullets: ["Enhanced communication strategies for user engagement."]
     },
     {
